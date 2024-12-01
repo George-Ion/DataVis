@@ -6,9 +6,16 @@ This Python script performs data analysis and visualization on a liquor sales da
 
 - **Data Loading**: Reads liquor sales data from a CSV file.
 - **Data Preparation**: Filters data by date range, processes it to extract relevant columns, and groups data by zip code and store.
-- **Visualization**: Generates a scatter plot for liquor sales by zip code and a bar chart for the top stores based on sales percentage.
+- **Visualization**: 
+  - **Scatter Plot**: Shows liquor sales by zip code, visualizing the number of bottles sold in each zip code.
+  - **Bar Chart**: Displays the top 15 stores by sales percentage, highlighting the sales performance of the highest-performing stores.
 
 ## Requirements
 
 - `pandas`: For data manipulation.
 - `matplotlib`: For plotting graphs.
+
+To install the required libraries, run:
+
+```bash
+pip install pandas matplotlib
